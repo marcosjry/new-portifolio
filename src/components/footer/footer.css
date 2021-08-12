@@ -1,0 +1,22 @@
+.Footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-family: 'Lexend Deca', sans-serif;
+
+}
+.FooterB {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    border-top: 1px solid #ee3976;
+}
+
+@media (max-width:550px) {
+    .FooterB {
+        width: 100%;
+    }
+}

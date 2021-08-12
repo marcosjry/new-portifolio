@@ -1,0 +1,41 @@
+.Navbar ul {
+    list-style: none;
+    display: flex;
+}
+.Navbar {
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    background: #000000;
+    color: #ed145b;
+}
+.Navbar li {
+    font-size: 20px;
+    color: white;
+}
+
+.SpaceLi li:nth-child(1){
+    margin-right: 20px;
+}
+
+@keyframes App-logo-spin-2 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .LogoImage {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@media (max-width:900px) {
+  .Navbar ul {
+    display: none;
+  }
+}
